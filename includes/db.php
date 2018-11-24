@@ -1,7 +1,7 @@
 <?php
 global $connection = mysqli_connect("localhost","root","","userimage");
 
-if($connection){
+if(!$connection){
     echo "Error In Connecting to The Database";
 }
 
